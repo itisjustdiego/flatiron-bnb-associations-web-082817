@@ -52,6 +52,7 @@ describe User do
       end
 
       it 'has many trips' do
+        # binding.pry
         expect(logan.trips).to include(reservation)
       end
 

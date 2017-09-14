@@ -69,6 +69,7 @@ describe Listing do
     end
 
     it 'has many reviews through reservations' do
+      
       expect(listing.reviews).to include(review)
     end
 
